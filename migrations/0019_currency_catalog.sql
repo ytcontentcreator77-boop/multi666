@@ -1,0 +1,21 @@
+-- Expand the supported currency catalog. Rates are initial reference values and remain editable by admins.
+INSERT OR IGNORE INTO currencies (code, name, symbol, per_usd, enabled) VALUES
+('USDT','Tether','₮',1,1),
+('MXN','Mexican Peso','$',17.2,1),('ZAR','South African Rand','R',18.4,1),
+('KES','Kenyan Shilling','KSh',129,1),('GHS','Ghanaian Cedi','GH₵',15.2,1),
+('UGX','Ugandan Shilling','USh',3700,1),('TZS','Tanzanian Shilling','TSh',2600,1),
+('MAD','Moroccan Dirham','د.م.',10,1),('ILS','Israeli Shekel','₪',3.7,1),
+('CHF','Swiss Franc','CHF',0.89,1),('SEK','Swedish Krona','kr',10.5,1),
+('NOK','Norwegian Krone','kr',10.7,1),('DKK','Danish Krone','kr',6.9,1),
+('PLN','Polish Zloty',' zł',4,1),('CZK','Czech Koruna','Kč',23,1),
+('HUF','Hungarian Forint','Ft',365,1),('RON','Romanian Leu','lei',4.6,1),
+('UAH','Ukrainian Hryvnia','₴',41,1),('CLP','Chilean Peso','$',950,1),
+('COP','Colombian Peso','$',4100,1),('ARS','Argentine Peso','$',1000,1),
+('PEN','Peruvian Sol','S/',3.75,1),('KZT','Kazakhstani Tenge','₸',480,1),
+('AZN','Azerbaijani Manat','₼',1.7,1),('GEL','Georgian Lari','₾',2.7,1),
+('CNY','Chinese Yuan','¥',7.2,1),('TWD','Taiwan Dollar','NT$',32,1),
+('SGD','Singapore Dollar','S$',1.35,1),('HKD','Hong Kong Dollar','HK$',7.8,1),
+('OMR','Omani Rial','ر.ع.',0.385,1),('QAR','Qatari Riyal','ر.ق',3.64,1),
+('BHD','Bahraini Dinar','د.ب',0.377,1),('KWD','Kuwaiti Dinar','د.ك',0.307,1),
+('DZD','Algerian Dinar','دج',134,1),('ETB','Ethiopian Birr','Br',57,1),
+('XAF','Central African CFA Franc','FCFA',610,1),('XOF','West African CFA Franc','CFA',610,1);

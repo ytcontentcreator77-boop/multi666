@@ -1,0 +1,3 @@
+ALTER TABLE payment_methods ADD COLUMN max_amount REAL NOT NULL DEFAULT 1000000;
+ALTER TABLE payment_methods ADD COLUMN bonus_pct REAL NOT NULL DEFAULT 0;
+ALTER TABLE payment_methods ADD COLUMN qr_url TEXT NOT NULL DEFAULT '';
